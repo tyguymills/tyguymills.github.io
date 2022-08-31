@@ -10,7 +10,12 @@
 }
 .name h5 {
   margin-top:-35px;
-
+}
+aside {
+  width:30%;
+  max-width:500px;
+  min-width:100px;
+  float:left;
 }
 .h1 {
 text-align:center;
@@ -18,8 +23,15 @@ text-align:center;
 .digitalteamwork {
 
 }
+.skills h1 {
+  font-size: 30px!important;
+  right:-25px;
+  /* text-align:center; */
+  margin-left:100px;
+}
 li {
   margin-left: 75px;
+  margin-bottom:10px;
 }
 h3 {
   margin-left: 25px;
@@ -28,27 +40,31 @@ h3 {
   bottom:-25px;
 }
 .skills {
-  margin-bottom:50px;
-}
-li {
-margin-bottom:10px;
+  margin-bottom:-150px;
 }
 body {
-  width:75%;
+  width:100%;
+  /* margin-left:100px;
+  margin-right:-100px; */
 }
 h1 {
   color:navy;
 }
- /* li:before {
-    font-family: 'FontAwesome';
-    content: '\f192';
-    /* width:100%; */
-    /* margin-left:-25px; */
-    /* content: '     '; */
+.lawnmowing p {
+  right:100px;
+  float:right;
+  font-style:italic;
 }
-/* li:before {
-  margin-right:25px;
+.digitalteamwork p {
+  float:right;
+  right:-100px;
+  font-style:italic;
 }
-ul {
-  /* display:none; */
-} */ */
+.cmpdigital p {
+  float:right;
+  right:100px;
+  font-style:italic;
+}
+.holyfamily p {
+  margin-top:30px;
+}
